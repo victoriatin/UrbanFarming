@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Montserrat";
 }
-
+/* video background styling */
 .showcase {
   position: absolute;
   right: 0;
@@ -41,6 +41,7 @@
   background: #03a9f4;
   mix-blend-mode: overlay;
 }
+/* text styling */
 .text {
   position: relative;
   z-index: 10;
