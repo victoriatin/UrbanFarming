@@ -21,15 +21,16 @@ nav {
   background: #fff;
 }
 nav h1 {
-  text-align: left;
+  display: inline-block;
   font-weight: 800;
+  padding: 5px;
   margin: 0 10px;
   font-size: 36px;
 }
 /* nav link list styling */
 nav ul {
+  float: right;
   list-style: none;
-  text-align: right;
 }
 nav ul li {
   display: inline-block;
@@ -150,21 +151,34 @@ section {
 
 /* mission statement section - green background  */
 .mission-section {
-  font-size: 14px;
+  font-size: 16px;
   background: #3e4d41;
   align-items: center;
   justify-content: center;
-  padding: 5% 20%;
+  padding: 5%;
   color: #fff;
+}
+/* alignment for 4 divs in a square */
+.row1 {
+  display: flex;
+  width: 100%;
+}
+
+.row1 div {
+  width: 50%;
+}
+
+.noMargin {
+  margin: 0px;
 }
 
 /* goal section - gray background */
 .goal-section {
-  font-size: 14px;
+  font-size: 16px;
   background: #f5f5f5;
   align-items: center;
   justify-content: center;
-  padding: 5% 20%;
+  padding: 5%;
   color: black;
 }
 
@@ -174,7 +188,7 @@ section {
 
 /* community garden div */
 .garden-section {
-  font-size: 14px;
+  font-size: 16px;
   background: #f5f5f5;
   align-items: center;
   justify-content: center;
@@ -309,6 +323,15 @@ input[type="submit"]:hover {
 /**                    **/
 /**                   **/
 
+.green-section {
+  font-size: 14px;
+  background: #3e4d41;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 20%;
+  color: #fff;
+}
+
 /* info link button styling */
 .resource:link,
 .resource:visited {
@@ -366,6 +389,14 @@ hr {
 /**                  **/
 /**                 **/
 
+.gray-section {
+  font-size: 14px;
+  background: #f5f5f5;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 20%;
+  color: black;
+}
 /* gallery slideshow */
 .mySlides {
   display: none;
@@ -533,12 +564,22 @@ footer p {
   .column {
     width: 100%;
   }
+  .goal-section,
+  .mission-section,
+  .right p {
+    font-size: 12px;
+  }
 }
 /* On smaller screens, decrease text size in gallery*/
 @media only screen and (max-width: 300px) {
   .prev,
   .next,
   .caption-text {
+    font-size: 11px;
+  }
+  .goal-section,
+  .mission-section,
+  .right p {
     font-size: 11px;
   }
 }
