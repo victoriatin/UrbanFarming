@@ -186,6 +186,16 @@ section {
 /**                      **/
 /**                     **/
 
+/* top section - how can i get involved? */
+.get-involved-info {
+  font-size: 16px;
+  background: #3e4d41;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  color: #fff;
+}
+
 /* community garden div */
 .garden-section {
   font-size: 16px;
