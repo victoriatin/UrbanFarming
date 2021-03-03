@@ -515,8 +515,8 @@ img {
 
 footer {
   position: relative;
-  left: 0;
-  bottom: 0;
+  left: 0%;
+  bottom: 0%;
   width: 100%;
   padding-top: 20px;
   text-align: center;
@@ -543,7 +543,7 @@ footer ul {
 
 .footer-grid {
 		display: grid;
-		grid-template-columns: auto 20% 20%;	/*number of columns*/
+		grid-template-columns: auto 20% 20%;		/*number of columns*/
 		grid-template-rows: repeat(2, 1fr);			/*number of rows*/
 		background-color: #fff;						/*background color white*/
 		padding: 10px;								/*space between the border of the grid and the page*/
