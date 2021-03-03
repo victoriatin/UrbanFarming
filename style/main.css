@@ -5,6 +5,12 @@
   font-family: "Montserrat";
 }
 
+@font-face {
+  font-family: GlacialIndifference;
+  src: url(GlacialIndifference-Bold.otf);
+  font-weight: bold;
+}
+
 body {
   position: relative;
   height: 100%;
@@ -26,6 +32,7 @@ nav h1 {
   padding: 5px;
   margin: 0 10px;
   font-size: 36px;
+  font-family: GlacialIndifference;
 }
 /* nav link list styling */
 nav ul {
@@ -152,9 +159,9 @@ section {
 /* mission statement section - green background  */
 
 .mission-section-grid {
-	display: grid;
-	grid-template-columns: 2(1fr);
-	grid-template-rows: 1;
+  display: grid;
+  grid-template-columns: 2 (1fr);
+  grid-template-rows: 1;
 }
 
 .mission-section {
@@ -416,27 +423,27 @@ hr {
 }
 
 .featuredImg {
-	display: grid;
-	grid-template-columns: 45% 45%;
-	grid-template-rows: 1;
-	padding: 10px 0px 100px;
-	grid-gap: 5% 10%;
-	text-align: left;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 1;
+  padding: 10px 0px 100px;
+  grid-gap: 5% 10%;
+  text-align: left;
 }
 /* image gallery */
 
 .img-grid {
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;		/*number of columns*/
-	grid-template-rows: repeat(3, 1fr); 		/*number of rows*/
-	padding: 10px;								/*space between the border of the grid and the page*/
-	grid-gap: 10px;								/*space between different grid components*/
-	
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%; /*number of columns*/
+  grid-template-rows: repeat(3, 1fr); /*number of rows*/
+  padding: 10px; /*space between the border of the grid and the page*/
+  grid-gap: 10px; /*space between different grid components*/
 }
 
-.gallery {					/*affects images in image gallery*/
-	padding: 10px;
-	cursor: pointer;
+.gallery {
+  /*affects images in image gallery*/
+  padding: 10px;
+  cursor: pointer;
 }
 
 /* gallery slideshow */
@@ -542,49 +549,49 @@ footer ul {
 }
 
 .footer-grid {
-		display: grid;
-		grid-template-columns: auto 20% 20%;		/*number of columns*/
-		grid-template-rows: repeat(2, 1fr);			/*number of rows*/
-		background-color: #fff;						/*background color white*/
-		padding: 10px;								/*space between the border of the grid and the page*/
-		grid-gap: 10px;								/*space between different grid components*/
-		font-family: "Arial", "Verdana";			/*font, obviously*/
-		color: #3e4d41;								/*text color*/
+  display: grid;
+  grid-template-columns: auto 20% 20%; /*number of columns*/
+  grid-template-rows: repeat(2, 1fr); /*number of rows*/
+  background-color: #fff; /*background color white*/
+  padding: 10px; /*space between the border of the grid and the page*/
+  grid-gap: 10px; /*space between different grid components*/
+  font-family: "Arial", "Verdana"; /*font, obviously*/
+  color: #3e4d41; /*text color*/
 }
 
-.footer-grid-item{
-	padding: 10px;									/*space between elements inside of the grid and the border of the grid*/
+.footer-grid-item {
+  padding: 10px; /*space between elements inside of the grid and the border of the grid*/
 }
 
-.item1{
-	grid-column: span 1;
-	grid-row: span 1;
-	text-align: left;
+.item1 {
+  grid-column: span 1;
+  grid-row: span 1;
+  text-align: left;
 }
 
-.item2{
-	grid-column: span 1;
-	grid-row: span 1;
-	text-align: left;
+.item2 {
+  grid-column: span 1;
+  grid-row: span 1;
+  text-align: left;
 }
 
-.item3{
-	grid-column: span 1;
-	grid-row: span 1;
-	text-align: left;
+.item3 {
+  grid-column: span 1;
+  grid-row: span 1;
+  text-align: left;
 }
 
-.item4{
-	border-top: 1px solid #3e4d41;
-	grid-column: span 4;
-	grid-row: span 2;
-	text-align: center;
-	padding: 10px 10px 0px 10px;
+.item4 {
+  border-top: 1px solid #3e4d41;
+  grid-column: span 4;
+  grid-row: span 2;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
 }
 
 /*contact styling*/
 .container {
-	padding: 10px;
+  padding: 10px;
 }
 
 /* social icons styling*/
