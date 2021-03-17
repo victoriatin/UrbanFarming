@@ -561,7 +561,8 @@ footer {
 
 footer h4 {
   font-weight: bold;
-  /*font-family: Arial, sans-serif;*/
+  font-size: 20px;
+  font-family: GlacialIndifference;
   text-align: left;
 }
 
@@ -574,6 +575,11 @@ footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+footer a {
+	font-family: GlacialIndifference;
+	font-size: 14px;
 }
 
 .footer-grid {
