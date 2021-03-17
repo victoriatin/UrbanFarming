@@ -28,7 +28,15 @@ h1 {
   font-size: 32px;
 }
 
+h2 {
+  font-family: GlacialIndifference;
+}
+
 p {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
   font-family: "Raleway", sans-serif;
 }
 
@@ -282,6 +290,7 @@ section {
   font-size: 28px;
   border-radius: 100%;
   color: black;
+  font-family: "Raleway", sans-serif;
 }
 
 /* garden location h1 heading */
@@ -294,6 +303,7 @@ section {
 
 /* sponser garden h1 heading */
 .garden-heading2 {
+  padding-top: 20px;
   font-family: GlacialIndifference;
   color: #fff;
   background: #3e4d41;
@@ -311,6 +321,7 @@ section {
 #community-gardens th {
   border: 1px solid #ddd;
   padding: 8px;
+  font-family: "Raleway", sans-serif;
 }
 
 #community-gardens tr:nth-child(even) {
@@ -339,6 +350,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: "Raleway", sans-serif;
 }
 
 input[type="submit"] {
@@ -348,10 +360,15 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: "Raleway", sans-serif;
 }
 
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+
+label {
+	font-family: "Raleway", sans-serif;
 }
 
 .contact-container {
@@ -578,7 +595,6 @@ footer ul {
 }
 
 footer a {
-	font-family: GlacialIndifference;
 	font-size: 14px;
 }
 
@@ -620,7 +636,7 @@ footer a {
   grid-column: span 4;
   grid-row: span 2;
   text-align: center;
-  padding: 10px 10px 0px 10px;
+  padding-top: 30px;
 }
 
 /*contact styling*/
@@ -629,10 +645,6 @@ footer a {
 }
 
 /* social icons styling*/
-
-/*.footer-social {
-  padding-right: 30px;
-}*/
 
 .footer-social ul {
   padding: 0;
@@ -660,22 +672,22 @@ footer a {
 }
 
 .fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
+  background: #10291c;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #1f4e35;
+  color: white;
+}
+
+.fa-youtube {
+  background: #2d724d;
+  color: white;
+}
+
+.fa-twitter {
+  background: #3c9766;
   color: white;
 }
 
