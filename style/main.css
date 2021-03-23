@@ -44,22 +44,29 @@ a {
 /**               **/
 /**              **/
 
+.logonav {
+  height: 150px;
+  width: 150px;
+  padding-left: 5%;
+}
 nav {
   width: 100%;
+  overflow: hidden;
   margin: 0 auto;
   background: #fafafa;
 }
 nav h1 {
   display: inline-block;
   font-weight: 800;
-  padding: 5px;
+  padding-left: 10%;
   margin: 0 10px;
-  font-size: 36px;
+  font-size: 42px;
   font-family: GlacialIndifference;
 }
 /* nav link list styling */
 nav ul {
   float: right;
+  padding-right: 10%;
   list-style: none;
 }
 nav ul li {
@@ -70,7 +77,6 @@ nav ul li a {
   padding: 15px;
   text-decoration: none;
   color: black;
-  font-weight: 800;
   margin: 0 10px;
   font-size: 20px;
 }
@@ -581,6 +587,13 @@ img {
 /** FOOTER **/
 /**        **/
 /**        **/
+.logo {
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  margin: 0 10px;
+  float: left;
+}
 
 footer {
   position: relative;
@@ -739,6 +752,9 @@ footer a {
   .goal-section,
   .mission-section,
   .right p {
+    font-size: 12px;
+  }
+  p {
     font-size: 12px;
   }
 }
