@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+/* Raleway Font - Regular 400 */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @font-face {
   font-family: GlacialIndifference;
   src: url(GlacialIndifference-Bold.otf);
@@ -74,6 +76,7 @@
 .text a {
   display: inline-block;
   font-size: 1em;
+  font-family: "Raleway", sans-serif;
   background: #fff;
   padding: 10px 30px;
   text-decoration: none;
