@@ -49,8 +49,7 @@ a {
 /**              **/
 
 .logonav {
-  height: 150px;
-  width: 150px;
+  width: 100%;
 }
 nav {
   width: 100%;
@@ -58,14 +57,7 @@ nav {
   margin: 0 auto;
   background: #fafafa;
 }
-nav h1 {
-  display: inline-block;
-  font-weight: 800;
-  padding-left: 10%;
-  margin: 0 10px;
-  font-size: 42px;
-  font-family: GlacialIndifference;
-}
+
 /* nav link list styling */
 nav ul {
   text-align: center;
@@ -80,7 +72,7 @@ nav ul li a {
   text-decoration: none;
   color: black;
   margin: 0 10px;
-  font-size: 20px;
+  font-size: 22px;
 }
 nav ul li a,
 nav ul li a:after,
