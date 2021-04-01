@@ -252,8 +252,16 @@ section {
 /**                      **/
 /**                     **/
 
-.jump-scroll:link {
+/* clicking the link auto scrolls to the div */
+.jump-scroll:link,
+.jump-scroll:visited {
   color: black;
+  font-weight: bold;
+}
+
+.jump-scroll-2:link,
+.jump-scroll-2:visited {
+  color: #fafafa;
   font-weight: bold;
 }
 
