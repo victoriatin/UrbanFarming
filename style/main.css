@@ -10,7 +10,9 @@ body {
   height: 100%;
   margin: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /** Main font styling **/
 
 /* Raleway Font - Regular 400 */
@@ -42,6 +44,7 @@ p {
 
 a {
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
 
 /** navigation bar **/
@@ -249,6 +252,11 @@ section {
 /**                      **/
 /**                     **/
 
+.jump-scroll:link {
+  color: black;
+  font-weight: bold;
+}
+
 /* top section - how can i get involved? */
 .get-involved-info {
   font-size: 16px;
@@ -288,11 +296,11 @@ section {
 
 /* circles paragraph text */
 .circles p {
-  font-size: 18px;
+  font-size: 16px;
   color: #fafafa;
-  font-weight: 500;
-  line-height: 25px;
-  padding: 1em;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
 }
 
 .inline {
@@ -312,11 +320,11 @@ section {
   display: block;
   text-decoration: none;
   background-color: #f9f9f1;
-  width: 120px;
-  margin: 0 auto 2em;
+  width: 100px;
+  margin: 0 auto 1em;
   padding: 0;
-  height: 120px;
-  line-height: 120px;
+  height: 100px;
+  line-height: 100px;
   text-align: center;
   font-size: 28px;
   border-radius: 100%;
@@ -370,6 +378,14 @@ section {
 }
 
 /* contact form  */
+
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
 input[type="text"],
 select,
 textarea {
@@ -397,17 +413,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #f7941e;
-}
-
-label {
-  float: left;
-  font-family: "Raleway", sans-serif;
-}
-
-.contact-container {
-  border-radius: 5px;
-  background-color: #f9f9f1;
-  padding: 20px;
 }
 
 /** RESOURCES.HTML PAGE **/
@@ -439,16 +444,46 @@ label {
 }
 
 .card {
-  border: 2px solid #205237;
-  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: grid;
-  grid-template-rows: max-content 200px 1fr;
+  grid-template-rows: minmax 200px 1fr;
+  background-color: #fafafa;
+  padding-bottom: 5%;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+}
+
+.card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.card h2 {
+  margin: 5px;
 }
 
 .card img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.content {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.read-more {
+  background-color: #205237;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  background-color: #f7941e;
+  color: black;
 }
 
 /* info link button styling */
@@ -471,7 +506,6 @@ label {
 .r-heading {
   text-align: center;
   padding-bottom: 30px;
-  font-size: 40px;
 }
 /* resource div styling */
 .r-info {
@@ -775,6 +809,29 @@ footer a {
   nav ul li a {
     width: 100%;
     display: inline-block;
+  }
+  .circle-list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: none;
+    width: 200px;
+  }
+  /* number 1-2-3 styling inside circles */
+  .circled {
+    display: block;
+    text-decoration: none;
+    background-color: #f9f9f1;
+    width: 80px;
+    margin: 0 auto 1em;
+    padding: 0;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 100%;
+    color: black;
+    font-family: "Raleway", sans-serif;
   }
 }
 @media screen and (max-width: 600px) {
