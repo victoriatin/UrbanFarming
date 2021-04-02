@@ -32,21 +32,33 @@ h1 {
 
 h2 {
   font-family: GlacialIndifference;
+  font-size: 28px;
 }
 
 h3 {
   font-family: GlacialIndifference;
+  font-size: 20px;
 }
 
 p {
   font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 a {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
+li {
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
 /** navigation bar **/
 /**               **/
 /**              **/
@@ -178,13 +190,11 @@ section {
   font-weight: lighter;
 }
 .right p {
-  font-size: 16px;
   margin: 18px 0;
   line-height: 25px;
 }
 
 /* mission statement section - green background  */
-
 .mission-section-grid {
   display: grid;
   grid-template-columns: 2 (1fr);
@@ -199,9 +209,6 @@ section {
   color: #fafafa;
 }
 
-.mission-section p {
-  font-size: 16px;
-}
 .mission-section-image {
   position: relative;
 }
@@ -212,6 +219,7 @@ section {
   object-fit: cover;
   z-index: 0;
 }
+
 /* alignment for 4 divs in a square */
 .row1 {
   display: flex;
@@ -235,9 +243,6 @@ section {
   color: black;
 }
 
-.goal-section p {
-  font-size: 16px;
-}
 .goal-section-image {
   position: relative;
 }
@@ -265,22 +270,15 @@ section {
   font-weight: bold;
 }
 
-/* top section - how can i get involved? */
+/* green div styling */
 .get-involved-info {
-  font-size: 16px;
   background: #205237;
   text-align: center;
   padding: 1% 10%;
   color: #fafafa;
 }
 
-.get-involved-info li {
-  list-style-type: none;
-  font-size: 16px;
-  font-family: "Raleway", sans-serif;
-}
-
-/* community garden div */
+/* community garden table div */
 .garden-section {
   font-size: 16px;
   background: #f9f9f1;
@@ -328,10 +326,10 @@ section {
   display: block;
   text-decoration: none;
   background-color: #f9f9f1;
-  width: 100px;
+  width: 100px; /* circle size */
   margin: 0 auto 1em;
   padding: 0;
-  height: 100px;
+  height: 100px; /* circle size */
   line-height: 100px;
   text-align: center;
   font-size: 28px;
@@ -340,7 +338,7 @@ section {
   font-family: "Raleway", sans-serif;
 }
 
-/* garden location h1 heading */
+/* h1 styling against beige background  */
 .garden-heading {
   font-family: GlacialIndifference;
   background: #f9f9f1;
@@ -348,7 +346,7 @@ section {
   padding-top: 10px;
 }
 
-/* sponser garden h1 heading */
+/*  h1 styling against green background */
 .garden-heading2 {
   padding-top: 20px;
   font-family: GlacialIndifference;
@@ -386,7 +384,6 @@ section {
 }
 
 /* contact form  */
-
 form {
   display: inline-block;
   margin-left: auto;
@@ -427,8 +424,8 @@ input[type="submit"]:hover {
 /**                    **/
 /**                   **/
 
+/* additional resources section */
 .green-section {
-  font-size: 14px;
   background: #205237;
   align-items: center;
   justify-content: center;
@@ -436,51 +433,55 @@ input[type="submit"]:hover {
   color: #fafafa;
 }
 
+/* beige background section for article cards */
 .article-section {
-  font-size: 14px;
   background: #f9f9f1;
   text-align: center;
   padding: 2% 20%;
   color: black;
 }
 
-/* article cards styling */
+/* article cards div grid styling */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 30px;
 }
 
+/* article card styling */
 .card {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: grid;
   grid-template-rows: minmax 200px 1fr;
   background-color: #fafafa;
   padding-bottom: 5%;
+
+  /* sets position for pre-hover effect */
   position: relative;
   top: 0;
   transition: all 0.1s ease-in;
 }
 
+/* when hover over card, the card will raise slightly */
 .card:hover {
   top: -2px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
-.card h2 {
-  margin: 5px;
-}
 
+/* article card image */
 .card img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
+/* article paragraph content */
 .content {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  margin: 5px;
 }
 
+/* article card 'read more' button styling */
 .read-more {
   background-color: #205237;
   color: white;
@@ -529,8 +530,6 @@ input[type="submit"]:hover {
 }
 /* resources info paragraph text */
 .r-info p {
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
   line-height: 1.4em;
   padding: 0px;
   padding-bottom: 20px;
@@ -551,7 +550,6 @@ hr {
 /**                 **/
 
 .beige-section {
-  font-size: 18px;
   background-color: #f9f9f1;
   padding: 5% 5% 5% 5%;
   color: black;
