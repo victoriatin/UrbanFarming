@@ -191,7 +191,6 @@ section {
 }
 .right p {
   margin: 18px 0;
-  line-height: 25px;
 }
 
 /* mission statement section - green background  */
@@ -242,7 +241,9 @@ section {
   padding: 5%;
   color: black;
 }
-
+.goal-strong {
+  font-weight: bold;
+}
 .goal-section-image {
   position: relative;
 }
@@ -530,7 +531,6 @@ input[type="submit"]:hover {
 }
 /* resources info paragraph text */
 .r-info p {
-  line-height: 1.4em;
   padding: 0px;
   padding-bottom: 20px;
   margin: 5px auto;
